@@ -1,0 +1,35 @@
+{
+  "name": "ft_app_backend",
+  "version": "1.0.0",
+  "description": "This backend application serves as the server-side component for our project. It handles data processing, authentication, and communication with the database.",
+  "homepage": "https://github.com/Major132/Newsnestbackend#readme",
+  "bugs": {
+    "url": "https://github.com/Major132/Newsnestbackend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vishnu-202534/pronunciation.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.30.1",
+    "mongoose": "^8.2.4",
+    "multer": "^1.4.5-lts.1",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.13",
+    "nodemon": "^3.1.9"
+  },
+  "devDependencies": {}
+}
